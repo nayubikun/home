@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Auth"
-AuthUserFile ".htpasswd"
+AuthUserFile "nayubikun/home/.htpasswd"
 require valid-user
