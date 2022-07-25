@@ -106,8 +106,14 @@
         <input type="id" name="user_id" placeholder="UserID">
         <input type="password" name="password" placeholder="Password">
         <input type="submit" name="botton" value="LOGIN">
+        <input type="check" value="check" id="Check">
+        <script>
+            let btnCheck = document.getElementById('btnCheck');
+            btnCheck.addEventListener('click', function(){
+            console.log('search:' + location.search);
+            });
+        </script>
       </div>
-      <h1><?php echo $user_id; ?></h1>
     </form>
 </form>
 </body>
