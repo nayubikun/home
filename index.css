@@ -55,11 +55,11 @@ body {
   opacity: 0;
 }
 .active.container {
-  animation: 4.5s Container;
+  animation: 4s Container;
 }
 .active .text {
   opacity: 0;
-  animation: 4.5s Text forwards;
+  animation: 4s Text forwards;
 }
 .active .fingerprint {
   opacity: 1;
@@ -87,7 +87,7 @@ body {
 }
 .active .ok {
   opacity: 1;
-  animation: 4.5s Ok forwards;
+  animation: 4s Ok forwards;
 }
 @keyframes Container {
   0% { width: 200px }
@@ -188,6 +188,8 @@ body {
 	}
 }
 
+<<<<<<< HEAD
+=======
 body {
   background-color: #808080;
 }
@@ -251,3 +253,4 @@ form input[type = "submit"]:hover {
   background-color: #ff69b4;
   border: 2px solid #ff69b4;
 }
+>>>>>>> 839b84b33b33072a290b9a65b89f28c80b130e00
