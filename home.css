@@ -135,13 +135,6 @@ body {
       }
   }
   
-
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  
   }
   #box {
     display: flex;
@@ -184,10 +177,7 @@ body {
       100% {
           background-position: 0% 50%;
       }
-  }
-  
-  <<<<<<< HEAD
-  =======
+
   body {
     background-color: #808080;
   }
