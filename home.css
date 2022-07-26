@@ -1,4 +1,13 @@
-
+body {
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+  }
   .container {
     align-items: center;
     background: #000;
