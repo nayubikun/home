@@ -1,13 +1,4 @@
-body {
-    align-items: center;
-    display: flex;
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 26px;
-    height: 100vh;
-    justify-content: center;
-    margin: 0;
-  }
+
   .container {
     align-items: center;
     background: #000;
@@ -135,6 +126,13 @@ body {
       }
   }
   
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  
   }
   #box {
     display: flex;
@@ -177,7 +175,7 @@ body {
       100% {
           background-position: 0% 50%;
       }
-
+      
   body {
     background-color: #808080;
   }
