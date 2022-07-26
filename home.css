@@ -135,14 +135,6 @@ body {
       }
   }
   
-
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  
-  }
   #box {
     display: flex;
     align-items: center;
