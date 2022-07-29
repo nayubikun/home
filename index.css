@@ -8,6 +8,7 @@ body {
   justify-content: center;
   margin: 0;
 }
+
 .container {
   align-items: center;
   background: #000;
@@ -19,6 +20,7 @@ body {
   position: relative;
   width: 200px;
 }
+
 .text {
   color: white;
   position: absolute;
@@ -26,6 +28,7 @@ body {
   user-select: none;
   -moz-user-select: none;
 }
+
 .fingerprint {
   /* height: 80px; */
   left: -8px;
@@ -35,60 +38,75 @@ body {
   top: -9px;
   transition: opacity 1ms;
 }
+
 .fingerprint-active {
   stroke: greenyellow;
 }
+
 .fingerprint-out {
   opacity: 1;
 }
+
 .odd {
   stroke-dasharray: 0px 50px;
   stroke-dashoffset: 1px;
   transition: stroke-dasharray 1ms;
 }
+
 .even {
   stroke-dasharray: 50px 50px;
   stroke-dashoffset: -41px;
   transition: stroke-dashoffset 1ms;
 }
+
 .ok {
   opacity: 0;
 }
+
 .active.container {
   animation: 4s Container;
 }
+
 .active .text {
   opacity: 0;
   animation: 4s Text forwards;
 }
+
 .active .fingerprint {
   opacity: 1;
   transition: opacity 200ms 100ms;
 }
+
 .active .fingerprint-base .odd {
   stroke-dasharray: 50px 50px;
   transition: stroke-dasharray 600ms 50ms;
 }
+
 .active .fingerprint-base .even {
   stroke-dashoffset: 0px;
   transition: stroke-dashoffset 600ms;
 }
+
 .active .fingerprint-active .odd {
   stroke-dasharray: 50px 50px;
   transition: stroke-dasharray 1000ms 1000ms;
 }
+
 .active .fingerprint-active .even {
   stroke-dashoffset: 0px;
   transition: stroke-dashoffset 1000ms 1000ms;
 }
+
 .active .fingerprint-out {
   opacity: 0;
   transition: opacity 300ms 3100ms;
 }
+
 .active .ok {
   opacity: 1;
   animation: 4s Ok forwards;
 }
+
 @keyframes Container {
   0% { width: 200px }
   6% { width: 80px }
@@ -99,6 +117,7 @@ body {
   94% { width: 80px }
   100% { width: 200px }
 }
+
 @keyframes Text {
   0% { opacity: 1; transform: scale(1); }
   6% { opacity: 0; transform: scale(0.5); }
@@ -106,6 +125,7 @@ body {
   94% { opacity: 0; transform: scale(0.5); }
   100% { opacity: 1; transform: scale(1); }
 }
+
 @keyframes Ok {
   0% { opacity: 0 }
   70% { opacity: 0; transform: scale(0); }

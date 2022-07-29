@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 
-
-
-
 #box {
   display: flex;
   align-items: center;
@@ -13,12 +10,14 @@
   font-family: 'Raleway';
   font-size: 2.5rem;
 }
+
 .gradient-border {
   --borderWidth: 3px;
   background: #1D1F20;
   position: relative;
   border-radius: var(--borderWidth);
 }
+
 .gradient-border:after {
   content: '';
   position: absolute;
