@@ -12,3 +12,9 @@
     background-size: 300% 300%;
   }
   
+.gradient-border {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
