@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikkou.click</title>
     <link rel="stylesheet" href="joinminecraft.css">
-    <link rel="stylesheet" href="public.css">
-    <link rel="stylesheet" href="public.js">
     <link rel="icon" href="javapng.png">
 </head>
 <body>
@@ -33,5 +31,41 @@
 <img src="https://img.tokuzouserver.net/edce40f3-f46a-4e31-b1f5-3564ce7b483e.png"
      <p>こんな感じになれば成功です!</p>
    <p>あとはサーバーに参加して楽しいnikkou.clickライフを送ってください！</p>
+   <style>
+    body {
+  margin: 0;
+  padding: 0;
+}
+.loading {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+}
+.loading.hide {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 500ms;
+}
+.loading .circle {
+  display: block;
+  position: relative;
+  top: calc( 50% - 20px );
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border: 8px solid #e0e0e0;
+  border-top: 7px solid #ffcccc;
+  border-radius: 50px;
+  animation: loading 700ms linear 0ms infinite normal both;
+}
+@keyframes loading {
+  0% { transform: rotate( 0deg ); }
+  100% { transform: rotate( 360deg ); }
+}
+   </style>
 </body>
 </html>
