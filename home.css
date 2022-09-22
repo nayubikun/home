@@ -1,14 +1,3 @@
-#box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 250px;
-  height: 100px;
-  color: white;
-  font-family: 'Raleway';
-  font-size: 2.5rem;
-}
-
 /*その他と主な共通部分は省略*/
 
 a.btn-solid {
