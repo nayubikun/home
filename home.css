@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
-
 #box {
   display: flex;
   align-items: center;
@@ -53,6 +51,7 @@
 	transition: .3s;
 	color: #ff9800;
 }
+
 .cp_link:hover {
 	background-position: -100% 0;
 	color: #fff;
