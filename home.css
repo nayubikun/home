@@ -1,16 +1,3 @@
-.cp_link {
-	padding: 0.1em 0.3em;
-	background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, rgba(255,152,0,1) 50%);
-	background-position: 0 0;
-	background-size: 200% auto;
-	transition: .3s;
-	color: #ff9800;
-}
-.cp_link:hover {
-	background-position: -100% 0;
-	color: #fff;
-}
-
 #box {
   display: flex;
   align-items: center;
@@ -54,4 +41,24 @@
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+/*その他と主な共通部分は省略*/
+
+a.btn-solid {
+  color: #fff;
+  border-top: 4px solid #48ecc4;
+  border-right: 4px solid #0a5f4a;
+  border-bottom: 4px solid #0f745b;
+  border-left: 4px solid #8cf9de;
+  border-radius: 0;
+  background: #11a37f;
+}
+
+a.btn-solid:hover {
+  color: #fff;
+  border-top: 4px solid #0f745b;
+  border-right: 4px solid #8cf9de;
+  border-bottom: 4px solid #48ecc4;
+  border-left: 4px solid #0a5f4a;
 }
