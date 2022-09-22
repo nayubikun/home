@@ -1,14 +1,10 @@
-.main .kv__btn-text {
-    margin-top: 20px;
-    color: #fff;
-    background: -webkit-gradient(linear, left top, right top, from(#029ddf), color-stop(#68efaf), color-stop(#ff01d9), color-stop(#6702ff), to(#029ddf));
-    background: linear-gradient(to right, #029ddf, #68efaf, #ff01d9, #6702ff, #029ddf);
-    background-size: 400%;
-    display: inline-block;
-    padding: 15px 30px;
-    padding-position: relative;
-    border-radius: 50px;
-    font-size: 1.1em;
-    font-family: "DINPro-Regular";
-    cursor: pointer;
+.gaming {
+    /* 横長で虹色を作る */
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    animation: gaming 2s linear infinite;
+}
+  
+  @keyframes gaming {
+    /* backgroundを移動させる */
+    100% { background-position-x: 200%; }
 }
