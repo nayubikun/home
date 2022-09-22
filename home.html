@@ -13,26 +13,82 @@
   <a href="joinminecraft" class="btn btn-solid"><span>Minecraftサーバーへ参加する方法</span></a>
   <div class="button018"><a href="joinminecraft"><span>Discordに参加しよう！</span></a></div>
     <style>
+  a.btn-solid {
+    color: #fff;
+    border-top: 4px solid #48ecc4;
+    border-right: 4px solid #0a5f4a;
+    border-bottom: 4px solid #0f745b;
+    border-left: 4px solid #8cf9de;
+    border-radius: 0;
+    background: #11a37f;
+    text-decoration: none;
+  }
 
-        a.btn-solid {
-          color: #fff;
-           border-top: 4px solid #48ecc4;
-          border-right: 4px solid #0a5f4a;
-          border-bottom: 4px solid #0f745b;
-          border-left: 4px solid #8cf9de;
-          border-radius: 0;
-          background: #11a37f;
-          text-decoration: none;
-        }
+  a.btn-solid:hover {
+    color: #fff;
+    border-top: 4px solid #0f745b;
+    border-right: 4px solid #8cf9de;
+    border-bottom: 4px solid #48ecc4;
+    border-left: 4px solid #0a5f4a;
+    text-decoration: none;
+  }
+   /* Discord参加ボタンここから */
+   .button018 a {
+    position: relative;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 225px;
+    padding: 10px 0px 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
 
-        a.btn-solid:hover {
-          color: #fff;
-          border-top: 4px solid #0f745b;
-          border-right: 4px solid #8cf9de;
-          border-bottom: 4px solid #48ecc4;
-          border-left: 4px solid #0a5f4a;
-          text-decoration: none;
-        }
+.button018 a:before, .button018 a:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+}
+.button018 a:before {
+  width: 0.5rem;
+  height: 0.5rem;
+  left: 1.1rem;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  z-index: 2;
+  transform: translateY(-50%) rotate(45deg);
+  transition: all 0.3s;
+}
+.button018 a:after {
+  left: 0;
+  background: #6bb6ff;
+  z-index: 1;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4rem;
+  transform: translateY(-50%);
+  transition: all 0.5s;
+}
+.button018 a span {
+  position: relative;
+  transition: all 0.3s;
+  z-index: 3;
+}
+
+.button018 a:hover span {
+  color: #fff;
+}
+.button018 a:hover:before {
+  left: 2rem;
+}
+.button018 a:hover:after {
+  right: 0;
+  width: 100%;
+}
+/* Discord参加ボタンここまで */
       </style>
           
 </body>
