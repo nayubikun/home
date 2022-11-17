@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supporter/nikkou.nagoya</title>
+</head>
+<body>
+    <div class="loading">
+        <span class="circle"></span>
+      </div>
+    <header class="header-5">
+      <div class="header-inner">
+        <div class="logo">
+          <a href="home"><img src="https://img.tokuzouserver.net/546857a4-e489-444c-a4fa-b64e61738d3b.png "width="260" height="65"</a>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <a href="joinminecraft"><li class="header-nav-item">Minecraftに参加する方法</li></a>
+            <a href="https://stats.uptimerobot.com/9PBMgtzqkz"><li class="header-nav-item">サーバーの稼働状況</li></a>
+          </ul>
+          <div class="header-ham">
+            <div class="menu2"></div>
+            <div class="menu2"></div>
+            <div class="menu2"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+      <h1 class="center">nikkou.nagoyaのサポーター</h1>
+        <p class="center">tokuzou</p>
+        <p class="center">aomona</p>
+        <p class="center">ponzu</p>
+        <p class="center">somattya</p>
+    <style>
+          body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.loading {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+}
+.loading.hide {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 500ms;
+}
+.loading .circle {
+  display: block;
+  position: relative;
+  top: calc( 50% - 20px );
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border: 8px solid #e0e0e0;
+  border-top: 7px solid #ffcccc;
+  border-radius: 50px;
+  animation: loading 700ms linear 0ms infinite normal both;
+}
+@keyframes loading {
+  0% { transform: rotate( 0deg ); }
+  100% { transform: rotate( 360deg ); }
+}
+    /*ローディング画面ここまで*/
+
+    /*footerここから*/
+    .footer01 {
+ color: #808080;
+ background: #e5e5e5;
+ padding: 30px;
+}
+.footer01 a {
+ color: #808080;
+ text-decoration: none;
+}
+.footer01 a:hover {
+ text-decoration: underline;
+}
+.footer01 .menu {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ display: flex;
+ flex-wrap: wrap;
+}
+.footer01 .menu li {
+ margin: 0;
+ padding: 0 20px 0 0;
+}
+.footer01 .copyright {
+ margin: 0;
+ padding: 20px 0 0 0;
+}
+    /*footerここまで*/
+
+    /*headerここから*/
+.header-5 {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  max-width: 1024px;
+  height: 60px;
+  padding: 0 0.8em;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.header-nav-list {
+  display: inline-block;
+}
+
+.header-nav-item {
+  float: left;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+  list-style: none;
+}
+
+.header-nav-item a {
+  text-decoration: none;
+}
+
+.header-ham {
+  display: none;
+}
+
+.menu2 {
+  width: 20px;
+  height: 3px;
+  margin: 4px 0;
+  margin-right: 0;
+  background-color: #333;
+}
+
+.select {
+  color: #444;
+}
+
+.header-nav-item:hover {
+  background: #eee;
+}
+
+.logo img {
+  width: px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-nav-list {
+    display: none;
+  }
+
+  .header-nav {
+    margin: 0 0 0 auto;
+  }
+
+  .header-ham {
+    display: block;
+  }
+}
+    /*headerここまで*/
+    </style>
+</body>
+  <script>
+  const loading = document.querySelector( '.loading' );
+ 
+ window.addEventListener( 'load', () => {
+   loading.classList.add( 'hide' );
+ }, false );
+</script>
+</html>
